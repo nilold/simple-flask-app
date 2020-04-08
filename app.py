@@ -67,4 +67,4 @@ class ItemList(Resource):
 api.add_resource(Item, "/item/<string:name>")
 api.add_resource(ItemList, "/items")
 
-# app.run(port=5000, debug=True)
+app.run(port=5000, debug=True)
